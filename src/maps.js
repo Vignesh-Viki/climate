@@ -37,7 +37,7 @@ class maps extends Component {
     const coords = await getCoords();
 
     if ("geolocation" in navigator) { 
-      mapboxgl.accessToken = 'pk.eyJ1IjoidmlnbmVzaG1hZ2VzaGt1bWFyIiwiYSI6ImNraXZoN3ZyMDBrNngycm13MGlwbmMzM24ifQ.sa9grCAx0pwvUliO9_SH1Q';
+      mapboxgl.accessToken = 'pk.eyJ1IjoidmlnbmVzaG1hZ2VzaGt1bWFyIiwiYSI6ImNraXZoYTJ3YTA1MWcydG54cDViaDd2dzQifQ.1e8X7XhSJboOs_apI-eRjg';
       this.map = new mapboxgl.Map({
         container: 'maps',
         style: 'mapbox://styles/mapbox/streets-v11',
