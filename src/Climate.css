@@ -1,0 +1,21 @@
+.climate {
+	padding: 2%;
+    border: 2px #ff660054 groove;
+    border-radius: 15px/15px;
+    margin: 2%;
+}
+
+.button {
+  margin: 20px;
+  font-size: calc(9px + 2vmin);
+  background-color: #ff660054;  
+  border-radius: 5px/5px;
+  padding: 2px 30px;
+  color:white;
+}
+
+p{
+	font-family: verdana;
+}
+
+
