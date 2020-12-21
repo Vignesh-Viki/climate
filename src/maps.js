@@ -44,7 +44,7 @@ class maps extends Component {
         center: [coords.longitude, coords.latitude],
         zoom: 12
       });
-      let marker = new mapboxgl.Marker()
+      new mapboxgl.Marker()
       .setLngLat([coords.longitude,coords.latitude])
       .addTo(this.map);
 
