@@ -16,9 +16,7 @@ class Map1 extends Component {
   }
 
 componentDidMount() {
-  console.log("jjj")
     navigator.geolocation.getCurrentPosition(function(position1) {
-      console.log(position1)
       // this.setState({position : position1})
     });
   }
